@@ -1,0 +1,22 @@
+@mixin texto($fuente, $tamanio, $estilo, $bold, $color, $line, $align) {
+    font-family: $fuente;
+    font-size: $tamanio;
+    font-style: $estilo;
+    font-weight: $bold;
+    color: $color;
+    line-height: $line;
+    text-align: $align;
+}
+
+@mixin tablet{
+  @media screen and (max-width: $tablet) { @content; }
+}
+@mixin tablet-small{
+  @media screen and (max-width: $tablet-small) { @content; }
+}
+@mixin mobile{
+  @media only screen and (max-width: $mobile)  { @content; }
+}
+@mixin mobile-small{
+  @media only screen and (max-width: $mobile-small) { @content; }
+}

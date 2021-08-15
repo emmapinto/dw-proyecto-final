@@ -1,0 +1,274 @@
+<!DOCTYPE html> <!-- Es el tipo de documento usado para HTML5 -->
+<html lang="es"> <!-- Contenido del sitio en español -->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Gamingworld - Equipo</title>
+        <meta name="description" content="En este sitio encontrarás información relacionada a la industria de los videojuegos. Novedades, informes, análisis, trailers de lanzamientos y mucho más.">
+        <meta name="keywords" content="gaming, juegos, games, videojuegos, videogames, informacion, noticias, analisis">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <!-- favicon-->
+        <link rel="shortcut icon" href="../img/gaming-logo.png" type="image/x-icon">
+    </head>
+    <body>
+        <header>
+            <!--inicio de barra de navegacion-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-info">
+                <div class="container-fluid">
+                    <span class="navbar-brand mb-0 h1"><img class="logo" src="../img/gaming-logo.png" alt="GamingWorld logo"></span>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="../pages/articulos.html">Articulos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="../pages/videos.html">Videos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../pages/equipo.html">Equipo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="../pages/contacto.html">Contacto</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Redes
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                                    <li><a class="dropdown-item" href="https://twitter.com/" target="_blank">Twitter</a></li>
+                                    <li><a class="dropdown-item" href="https://www.youtube.com/" target="_blank">YouTube</a></li>
+                                    <li><a class="dropdown-item" href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+                                    <li><a class="dropdown-item" href="mailto:gamingworld@info.com" target="_blank">Email</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!--inicio de contenido principal-->
+        <main>
+            <!--inicio de seccion Banner-->
+            <section id="seccionBanner">
+                <h1>GamingWorld</h1>
+                <h2>Toda la información que necesitas sobre la industria del gaming</h2> 
+            </section>
+            <!--seccion que contiene informacion en texto-->
+            <section id="seccionContenido">
+                <div>
+                    <h3>Conocé a los profesionales que hacen posible este proyecto</h3>
+                    <p>Contamos con un equipo de periodistas y profesionales a los que, por encima de todas las cosas, les gusta disfrutar con los juegos. Haz click sobre ellos para conocer mas.</p>
+                </div>
+                <div class="equipoGrid">
+                    <div class="miBio" data-bs-toggle="modal" data-bs-target="#JuanPerez"> <!-- Button trigger modal -->
+                        <img src="../img/juan-perez.jpg" alt="Juan Pérez" title="Juan Pérez">
+                        <h3>Juan Pérez</h3> 
+                        <p>CEO</p>
+                    </div>
+                    <!-- Modal Juan Pérez-->
+                    <div class="modal fade" id="JuanPerez" tabindex="-1" aria-labelledby="JuanPerezLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="JuanPerezLabel">Juan Pérez</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                            Amante del cine y los videojuegos desde que tengo uso de razón con especial preferencia por todo lo relacionado con el terror y la ciencia ficción. Apasionado de la fotografía en todas sus vertientes e ilusionado por informar sobre mis mayores aficiones.
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="miBio" data-bs-toggle="modal" data-bs-target="#DiegoGomez"> <!-- Button trigger modal -->
+                        <img src="../img/diego-gomez.jpg" alt="Diego Gómez" title="Diego Gómez">
+                        <h3>Diego Gómez</h3> 
+                        <p>Co-Founder</p>
+                    </div>
+                    <!-- Modal Diego Gómez-->
+                    <div class="modal fade" id="DiegoGomez" tabindex="-1" aria-labelledby="DiegoGomezLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="DiegoGomezLabel">Diego Gómez</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                            Diego se hizo gamer con una GameBoy y comenzó a programar en el mítico BASIC. Compagina las incontables horas que ha dedicado con su afición por los cómics, el deporte y la carne a la parrilla, no necesariamente en ese orden.
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="miBio" data-bs-toggle="modal" data-bs-target="#MariaCasas"> <!-- Button trigger modal -->
+                        <img src="../img/maria-casas.jpg" alt="María Casas" title="María Casas">
+                        <h3>María Casas</h3> 
+                        <p>Ventas</p>
+                    </div>
+                    <!-- Modal María Casas-->
+                    <div class="modal fade" id="MariaCasas" tabindex="-1" aria-labelledby="MariaCasasLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="MariaCasasLabel">María Casas</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                            Periodista. Del videojuego le interesa explorar su valor cultural, su lenguaje único y su realidad heterogénea. Siempre pendiente de la actualidad indie y de las estrategias de comunicación en la industria. Su género favorito podría ser el sandbox, mientras más misiones secundarias insulsas, mejor.
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="miBio" data-bs-toggle="modal" data-bs-target="#PabloRamirez"> <!-- Button trigger modal -->
+                        <img src="../img/pablo-ramirez.jpg" alt="Pablo Ramirez" title="Pablo Ramirez">
+                        <h3>Pablo Ramirez</h3> 
+                        <p>Editor</p>
+                    </div>
+                    <!-- Modal Pablo Ramirez-->
+                    <div class="modal fade" id="PabloRamirez" tabindex="-1" aria-labelledby="PabloRamirezLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="PabloRamirezLabel">Pablo Ramirez</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                            Pablo en la actualidad realiza más tareas de las que debería hacer al día, además de intentar sacar una familia adelante. Rolero recalcitrante, intenta que los buenos videojuegos sean conocidos, no importando la plataforma, el origen ni la cantidad de dinero que se hayan dejado en marketing.
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="miBio" data-bs-toggle="modal" data-bs-target="#JoseGonzalez"> <!-- Button trigger modal -->
+                        <img src="../img/jose-gonzalez.jpg" alt="José Gonzalez" title="José Gonzalez">
+                        <h3>José Gonzalez</h3> 
+                        <p>Comunity Manager</p>
+                    </div>
+                    <!-- Modal José Gonzalez-->
+                    <div class="modal fade" id="JoseGonzalez" tabindex="-1" aria-labelledby="JoseGonzalezLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="JoseGonzalezLabel">José Gonzalez</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                            José lleva en la prensa de los videojuegos desde 2010, habiendo pasado por varios medios. Además lleva desde 2015 en el desarrollo de videojuegos, habiendo participado de la primera asociación de desarrolladores latinoamericana, y organizador de varios eventos.
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="miBio" data-bs-toggle="modal" data-bs-target="#MarioBenitez"> <!-- Button trigger modal -->
+                        <img src="../img/mario-benitez.jpg" alt="Mario Benitez" title="Mario Benitez">
+                        <h3>Mario Benitez</h3> 
+                        <p>Diseño gráfico</p>
+                    </div>
+                    <!-- Modal Mario Benitez-->
+                    <div class="modal fade" id="MarioBenitez" tabindex="-1" aria-labelledby="MarioBenitezLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="MarioBenitezLabel">Mario Benitez</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                            Mario empezó jugando al Pong en una Temco T-106C y aquel inocente entretenimiento terminó por monopolizar casi todo su tiempo de ocio y trabajo. ¿Su juego favorito? Photoshop.
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="miBio" data-bs-toggle="modal" data-bs-target="#RicardoGutierrez"> <!-- Button trigger modal -->
+                        <img src="../img/ricardo-gutierrez.jpg" alt="Ricardo Gutierrez" title="Ricardo Gutierrez">
+                        <h3>Ricardo Gutierrez</h3> 
+                        <p>Diseño gráfico</p>
+                    </div>
+                    <!-- Modal Ricardo Gutierrez-->
+                    <div class="modal fade" id="RicardoGutierrez" tabindex="-1" aria-labelledby="RicardoGutierrezLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="RicardoGutierrezLabel">Ricardo Gutierrez</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                            Desde su añorado Spectrum 128K, Ricardo lleva jugando a los videojuegos desde que tiene uso de razón pero también le apasiona el anime, el fútbol, NBA y prácticamente cualquier deporte con una pelota de por medio así como el cine y la música más bien oscura y/o electrónica.
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="miBio" data-bs-toggle="modal" data-bs-target="#LucasFreire"> <!-- Button trigger modal -->
+                        <img src="../img/lucas-freire.jpg" alt="Lucas Freire" title="Lucas Freire">
+                        <h3>Lucas Freire</h3> 
+                        <p>Redacción</p>
+                    </div>
+                    <!-- Modal Lucas Freire-->
+                    <div class="modal fade" id="LucasFreire" tabindex="-1" aria-labelledby="LucasFreireLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="LucasFreireLabel">Lucas Freire</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                            Los videojuegos marcaron la vida de Lucas desde que se puso por primera vez delante de la pantalla de un 486 para posteriormente sumergirse en las consolas con la primera PlayStation y Xbox. Además de los videojuegos, sus otras grandes pasiones son la música, las series y el rol de dados, lápiz y papel.
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="miBio" data-bs-toggle="modal" data-bs-target="#MarianaMunoz"> <!-- Button trigger modal -->
+                        <img src="../img/mariana-munoz.jpg" alt="Mariana Muñoz" title="Mariana Muñoz">
+                        <h3>Mariana Muñoz</h3> 
+                        <p>Redacción</p>
+                    </div>
+                    <!-- Modal Mariana Muñoz-->
+                    <div class="modal fade" id="MarianaMunoz" tabindex="-1" aria-labelledby="MarianaMunozLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="MarianaMunozLabel">Mariana Muñoz</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                            Profesional del sector desde los 18. Amante de las ventas y las estadísticas. Apasionada de viajar, de todo tipo de deportes y de la cultura japonesa.
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="miBio" data-bs-toggle="modal" data-bs-target="#SofiaMesa"> <!-- Button trigger modal -->
+                        <img src="../img/sofia-mesa.jpg" alt="Sofía Mesa" title="Sofía Mesa">
+                        <h3>Sofía Mesa</h3> 
+                        <p>Redacción</p>
+                    </div>
+                    <!-- Modal Sofía Mesa-->
+                    <div class="modal fade" id="SofiaMesa" tabindex="-1" aria-labelledby="SofiaMesaLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="SofiaMesaLabel">Sofía Mesa</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">Sofía es periodista de videojuegos porque le gusta descubrir nuevos mundos, experimentar otras vidas y hablar con desarrolladores llenos de ideas. Es redactora desde hace más de diez años.
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!--inicio de pie de pagina-->
+        <footer>
+            <p><a href="https://www.instagram.com/" target="_blank"><img src="../img/instagram_orange_icon.png" alt="Instagram" title="Instagram"></a> <a href="https://twitter.com/" target="_blank"><img src="../img/twitter_orange_icon.png" alt="Twitter" title="Twitter"></a> <a href="https://www.facebook.com/" target="_blank"><img src="../img/facebook_orange_icon.png" alt="Facebook" title="Facebook"></a> <a href="https://www.youtube.com/" target="_blank"><img src="../img/youtube_orange_icon.png" alt="YouTube" title="YouTube"></a> <a href="mailto:gamingworld@info.com"><img src="../img/email_orange_icon.png" alt="Email" title="Email"></a></p>
+            <p>© 2021 GamingWorld&trade;. Todos los derechos reservados.</p>
+        </footer>
+        <!--Llamada a JS de Bootstrap-->
+        <script src="../js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

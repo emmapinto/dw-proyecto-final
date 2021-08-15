@@ -1,0 +1,290 @@
+/*
+ * ----------------------------------------
+ * START animation shadow-drop-center
+ * ----------------------------------------
+ */
+@-webkit-keyframes shadow-drop-center {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1); }
+  100% {
+    -webkit-box-shadow: 0 0 20px 0px black;
+    box-shadow: 0 0 20px 0px black;
+    -webkit-transform: scale(1.05, 1.05);
+    transform: scale(1.05, 1.05); } }
+
+@keyframes shadow-drop-center {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1); }
+  100% {
+    -webkit-box-shadow: 0 0 20px 0px black;
+    box-shadow: 0 0 20px 0px black;
+    -webkit-transform: scale(1.05, 1.05);
+    transform: scale(1.05, 1.05); } }
+
+/*
+ * ----------------------------------------
+ * END animation shadow-drop-center
+ * ----------------------------------------
+ */
+/*hoja de estilos para mi sitio*/
+* {
+  padding: 0;
+  margin: 0; }
+
+html {
+  font-size: 100%; }
+  @media screen and (max-width: 768px) {
+    html {
+      font-size: 80%; } }
+  @media only screen and (max-width: 480px) {
+    html {
+      font-size: 70%; } }
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1; }
+  header .logo {
+    width: 70px;
+    height: 70px; }
+  header .bg-info {
+    background: linear-gradient(90deg, #000000, #1481a8); }
+  header nav div .navbar-collapse {
+    flex-grow: 0; }
+    header nav div .navbar-collapse ul li {
+      font-size: 20px;
+      font-weight: bold; }
+    header nav div .navbar-collapse .navbar-nav {
+      align-items: center; }
+      header nav div .navbar-collapse .navbar-nav .nav-link {
+        color: #f59936;
+        padding: 5px; }
+      header nav div .navbar-collapse .navbar-nav .nav-link:focus {
+        color: #f59936;
+        padding: 5px; }
+      header nav div .navbar-collapse .navbar-nav .nav-link:hover {
+        color: #f59936;
+        background-color: #5A2FA8;
+        padding: 5px;
+        border-radius: 5px; }
+      header nav div .navbar-collapse .navbar-nav .nav-link.active {
+        color: #f59936;
+        background-color: #5A2FA8;
+        border-radius: 5px;
+        padding: 5px; }
+      header nav div .navbar-collapse .navbar-nav .dropdown-menu {
+        left: -75px;
+        background: #5A2FA8; }
+        header nav div .navbar-collapse .navbar-nav .dropdown-menu a {
+          color: #f59936; }
+        header nav div .navbar-collapse .navbar-nav .dropdown-menu a:hover {
+          color: #5A2FA8;
+          background: #f59936; }
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2em;
+  font-style: normal;
+  color: #ffffff;
+  line-height: 40px;
+  background-color: #5A2FA8;
+  width: 100%; }
+  body main section h1 {
+    font-family: "Rubik", sans-serif;
+    font-size: 6em;
+    font-style: normal;
+    font-weight: bold;
+    color: #f59936;
+    text-align: center; }
+    @media screen and (max-width: 1248px) {
+      body main section h1 {
+        font-size: 5em; } }
+    @media only screen and (max-width: 480px) {
+      body main section h1 {
+        font-size: 3em; } }
+  body main section h2 {
+    font-family: "Jost", sans-serif;
+    font-size: 2.5em;
+    font-style: normal;
+    font-weight: bold;
+    color: #51d1ff;
+    text-align: center;
+    text-transform: uppercase; }
+    @media screen and (max-width: 768px) {
+      body main section h2 {
+        line-height: 40px;
+        font-size: 1.5em; } }
+  body main section h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 2em;
+    font-style: normal;
+    font-weight: bold;
+    color: #ffffff;
+    line-height: 70px; }
+    @media screen and (max-width: 768px) {
+      body main section h3 {
+        line-height: 40px; } }
+  body main section .ilustracion {
+    max-width: 100%; }
+  body main #seccionBanner {
+    margin: 0 auto;
+    background-image: url("../img/bg-head-street-blue.jpg");
+    background-size: cover;
+    background-color: #1481a8;
+    padding: 70px 100px; }
+    @media screen and (max-width: 768px) {
+      body main #seccionBanner {
+        padding: 20px 0; } }
+  body main #seccionContenido {
+    padding: 100px 100px;
+    background-image: url("../img/bg-main-backstreet-violet.jpg");
+    background-size: cover;
+    background-color: #5A2FA8; }
+    @media screen and (max-width: 1248px) {
+      body main #seccionContenido {
+        padding: 20px 15px; } }
+    body main #seccionContenido .errorPage {
+      text-align: center; }
+      body main #seccionContenido .errorPage a {
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: bold; }
+      body main #seccionContenido .errorPage a:hover {
+        color: #f59936; }
+    body main #seccionContenido .articulosFlex {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: stretch; }
+      body main #seccionContenido .articulosFlex .miArticulo {
+        flex-basis: 350px;
+        text-align: center;
+        border: 1px solid #000000;
+        padding: 40px;
+        margin: 20px;
+        border-radius: 10px;
+        background: linear-gradient(180deg, #020024cc, #490979cc, #00d4ffcc); }
+        body main #seccionContenido .articulosFlex .miArticulo h3 {
+          color: #f5ed5d;
+          font-size: 1.8em;
+          line-height: 1.5; }
+        body main #seccionContenido .articulosFlex .miArticulo p {
+          line-height: 30px; }
+        body main #seccionContenido .articulosFlex .miArticulo img {
+          width: 100%;
+          max-width: 700px;
+          height: auto;
+          padding-bottom: 10px; }
+        body main #seccionContenido .articulosFlex .miArticulo iframe {
+          width: 100%;
+          max-width: 700px;
+          height: 350px; }
+      body main #seccionContenido .articulosFlex .miArticulo:hover {
+        -webkit-animation: shadow-drop-center 0.4s both;
+        animation: shadow-drop-center 0.4s both; }
+    body main #seccionContenido .equipoGrid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: auto;
+      justify-content: stretch;
+      align-content: stretch;
+      justify-items: center;
+      align-items: stretch; }
+      @media screen and (max-width: 1248px) {
+        body main #seccionContenido .equipoGrid {
+          grid-template-columns: 1fr 1fr 1fr; } }
+      @media screen and (max-width: 768px) {
+        body main #seccionContenido .equipoGrid {
+          grid-template-columns: 1fr 1fr; } }
+      @media only screen and (max-width: 660px) {
+        body main #seccionContenido .equipoGrid {
+          grid-template-columns: 1fr; } }
+      body main #seccionContenido .equipoGrid .miBio {
+        text-align: center;
+        border: 2px solid #000000;
+        padding: 40px;
+        margin: 20px;
+        border-radius: 10px;
+        background-image: url("../img/double-bubble-dark.png");
+        background-color: #000000;
+        cursor: pointer; }
+        body main #seccionContenido .equipoGrid .miBio h3 {
+          color: #f5ed5d;
+          font-size: 1.5em;
+          line-height: 1; }
+        body main #seccionContenido .equipoGrid .miBio img {
+          width: 100%;
+          max-width: 200px;
+          height: auto;
+          vertical-align: baseline; }
+      body main #seccionContenido .equipoGrid .modal .modal-content {
+        background: linear-gradient(90deg, #000000, #5A2FA8, #51d1ff); }
+    body main #seccionContenido .accordion {
+      padding-bottom: 100px; }
+    body main #seccionContenido .accordion-item {
+      background: #020024cc; }
+    body main #seccionContenido .accordion-button {
+      color: #ffffff;
+      background: linear-gradient(90deg, #000000, #51d1ff); }
+    body main #seccionContenido .accordion-button:not(.collapsed) {
+      color: #ffffff; }
+    body main #seccionContenido .accordion-header {
+      line-height: 1px; }
+    body main #seccionContenido div form .miForm {
+      background: #020024cc;
+      color: #ffffff;
+      text-align: left;
+      max-width: 60%;
+      margin: 10px auto;
+      border-radius: 10px;
+      padding: 20px 0 10px 0; }
+      @media screen and (max-width: 768px) {
+        body main #seccionContenido div form .miForm {
+          max-width: 100%; } }
+      body main #seccionContenido div form .miForm .camposForm {
+        margin: 0 50px; }
+        body main #seccionContenido div form .miForm .camposForm input, body main #seccionContenido div form .miForm .camposForm textarea {
+          width: 100%;
+          border: 0; }
+        body main #seccionContenido div form .miForm .camposForm select {
+          padding: 10px 0;
+          width: 100%;
+          border: 0; }
+        body main #seccionContenido div form .miForm .camposForm .checkBox {
+          width: 10%;
+          border: 0; }
+      body main #seccionContenido div form .miForm .botonForm {
+        padding: 10px;
+        text-align: center; }
+        body main #seccionContenido div form .miForm .botonForm input {
+          height: 50px;
+          width: 100px;
+          background: linear-gradient(to top, #000000 0%, #5A2FA8 100%);
+          color: #ffffff;
+          font-size: 1.2em;
+          border-radius: 5px; }
+        body main #seccionContenido div form .miForm .botonForm input:hover {
+          background: linear-gradient(to bottom, #51d1ff 0%, #5A2FA8 100%); }
+
+footer {
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  font-style: normal;
+  color: #f59936;
+  line-height: 30px;
+  text-align: center;
+  background: linear-gradient(90deg, #000000, #1481a8);
+  padding: 30px 200px; }
+  @media screen and (max-width: 768px) {
+    footer {
+      padding: 30px 50px; } }
+  footer a {
+    color: #f59936; }
+  footer img {
+    width: 24px; }
